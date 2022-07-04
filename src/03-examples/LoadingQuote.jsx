@@ -1,9 +1,9 @@
 
-export const Quote = ({ author, quote }) => {
+
+export const LoadingQuote = () => {
     return (
-        <blockquote className='blockquote text-end'>
-            <p className="mb-1">{quote}</p>
-            <footer className='blockquote-footer mt-3'>{author}</footer>
-        </blockquote>
+        <div className='alert alert-info text-center'>
+            Loading...
+        </div>
     );
 };
